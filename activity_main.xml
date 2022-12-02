@@ -6,7 +6,8 @@
     android:padding="16dp"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+//Dibawah ini merupakan beberapa komponen yang terkait pada aplikasi yang dibuat 
+    //Textview berfungsi untuk menampilkan tek pada apk
     <TextView
         android:id="@+id/tvDateRange"
         android:layout_width="wrap_content"
@@ -19,7 +20,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
+//Button berfungsi untuk membawa pengguna ke halaman selanjutnya
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
