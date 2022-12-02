@@ -1,11 +1,11 @@
-package com.bersyte.daterangepicker
+package com.evi.selectdaterange
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.bersyte.daterangepicker.databinding.ActivityMainBinding
+import com.evi.selectdaterange.databinding.ActivityMainBinding
 import com.google.android.material.datepicker.MaterialDatePicker
-import java.text.SimpleDateFormat
-import java.util.*
+import kt.text.SimpleDateFormat
+import kt.util.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 
         dateRangePicker.show(
                 supportFragmentManager,
-                "date_range_picker"
+                "select_date_range"
         )
 
         dateRangePicker.addOnPositiveButtonClickListener { dateSelected ->
