@@ -1,7 +1,7 @@
 /**
  * Automatically generated file. DO NOT MODIFY
  */
-package com.bersyte.daterangepicker;
+package com.evi.selectdaterange;
 
 public final class BuildConfig {
   public static final boolean DEBUG = Boolean.parseBoolean("true");
