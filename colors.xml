@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    //Berikut ini warna yang saya gunakan pada aplikasi
     <color name="purple_200">#89638F</color>
     <color name="purple_500">#512359</color>
     <color name="purple_700">#DBCCDD</color>
